@@ -9,7 +9,7 @@ public class SortingAlgorithms {
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
 
-                    panel.refresh(); // Update the panel
+                    panel.refresh(); 
                 }
             }
         }
@@ -29,9 +29,9 @@ public class SortingAlgorithms {
             array[minIdx] = array[i];
             array[i] = temp;
 
-            panel.refresh(); // Update the panel
+            panel.refresh(); 
         }
     }
 
-    // Add other sorting algorithms here
+    
 }
