@@ -51,7 +51,7 @@ public class SortingPanel extends JPanel {
             switch (algorithm) {
                 case "Bubble Sort" -> SortingAlgorithms.bubbleSort(array, this);
                 case "Selection Sort" -> SortingAlgorithms.selectionSort(array, this);
-                // Add other sorting algorithms here
+                
             }
         }).start();
     }
